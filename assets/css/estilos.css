@@ -47,8 +47,6 @@ button:hover {
 }
 @media screen and (max-width: 768px){
     .opciones{
-        grid-template-columns: repeat(5, minmax(auto, 50px));
-        grid-template-rows: repeat(5, minmax(auto, 50px));
-        grid-gap: 7px;
+        flex-direction: column;
     }   
 }
