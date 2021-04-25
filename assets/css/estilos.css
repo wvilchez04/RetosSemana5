@@ -9,11 +9,9 @@ h1{
     margin-bottom: 30px;
 }
 .container {
-    display: grid;
-    grid-template-columns: repeat(autofill, minmax(50px, 10fr));
-    grid-auto-columns: 10fr;
-    margin: 10px 10px;
-    gap: 10px;
+    max-width:1000px;
+    padding:20px;
+    margin:0 auto;
   }
 .opciones{
     margin:0 auto;
