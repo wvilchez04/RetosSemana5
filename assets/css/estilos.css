@@ -48,6 +48,6 @@ button:hover {
 @media screen and (max-width: 768px){
     .opciones{
         flex-direction: column;
-        justify-content:center;
+        text-align: center;
     }   
 }
