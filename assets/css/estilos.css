@@ -54,6 +54,7 @@ button:hover {
 @media screen and (max-width: 768px){
     .container{
         grid-gap: 7px;
+        align-items: center;
     }
     .opciones{
         flex-direction: column;
