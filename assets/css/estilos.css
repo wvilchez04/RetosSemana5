@@ -47,6 +47,8 @@ button:hover {
 }
 @media screen and (max-width: 768px){
     body{
+        grid-template-columns: repeat(5, minmax(auto, 50px));
+        grid-template-rows: repeat(5, minmax(auto, 50px));
         grid-gap: 7px;
     }
     .opciones{
@@ -59,16 +61,5 @@ button:hover {
         margin-bottom: 30px;
         font-size: 45px;
     }
-    .imagen{
-        padding: 20px;
-        justify-content: center;
-        grid-column: 2 / 3;
-        grid-row: 1 / 2;
-        display: flex;
-    }
-    .imagen>img{
-        border: 1px solid rgb(200, 200, 200);
-        border-radius: 10px;
-        box-shadow: 0 0 10px 5px rgb(220, 220, 220);
-    }
+    
 }
