@@ -70,3 +70,10 @@ button:hover {
     border-radius: 10px;
     box-shadow: 0 0 10px 5px rgb(220, 220, 220);
 }
+@media screen and (max-width: 768px){
+    .opciones{
+        grid-template-columns: repeat(5, minmax(auto, 50px));
+        grid-template-rows: repeat(5, minmax(auto, 50px));
+        grid-gap: 7px;
+    }   
+}
